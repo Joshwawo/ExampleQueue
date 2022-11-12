@@ -45,7 +45,7 @@ function App() {
   };
 
   useEffect(() => {
-    return () => fetchData() as any;
+    fetchData() 
   }, []);
 
   // console.log(data && data.test);
@@ -58,7 +58,7 @@ function App() {
   };
 
   const windows = () => {
-    window.open("http://127.0.0.1:5173/");
+    window.open("https://example-queue.vercel.app");
   };
   console.log(data);
 
